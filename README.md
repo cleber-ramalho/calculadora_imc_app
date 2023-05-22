@@ -1,4 +1,4 @@
-Calculadora de IMC desenvolvida em HTML, CSS e Javascript
+<h2>Calculadora de IMC desenvolvida em HTML, CSS e Javascript</h2>
 
 * Com validação de inputs para caracteres não utilizáveis;
 
