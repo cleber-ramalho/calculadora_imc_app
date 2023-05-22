@@ -7,3 +7,5 @@
 * Tabela de resultado e informações adicionais;
 
 * Tema escuro
+
+* Visualize o projeto [clicando aqui](https://cleberramalho.github.io/calculadora_imc_app/)
