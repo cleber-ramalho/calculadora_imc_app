@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+   
+body {
+    background-color: #CCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #FFF;
+    transition: .5s;
+}
+
+.hide {
+    display: none !important;
+}
+
+.container {
+    min-width: 500px;
+    min-height: 400px;
+    background-color: #1D1e33;
+    padding: 2rem;
+    border-radius: 5px; 
+}
+
+/* IMC form */
+
+#calc-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: #CCC;
+}
+
+.form-control input {
+    padding: 1rem .5rem;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #F44236;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    opacity: .9;
+    flex: 1;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+#clear-btn {
+    background-color: #444;
+}
+
+/* Table */
+
+#result-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#imc-number {
+    font-size: 2.4rem;
+    margin-bottom: .6rem;
+}
+
+#imc-info {
+    font-size: 1.4rem;
+    color: #CCC;
+}
+
+#result-container h3 {
+    margin-top: 1rem;
+    color: #DFDFDF;
+}
+
+#imc-table {
+    margin: 1.5rem 0;
+    font-size: .9rem;
+}
+
+.table-header {
+    font-weight: bold;
+    color: #CCC;
+}
+
+.table-header, .table-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    border-bottom: 1px solid #444;
+}
+
+.table-header h4, .table-data p {
+    flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3) {
+    max-width: 80px;
+}
+
+#back-btn {
+    align-self: center;
+}
+
+.good {
+    color: #12db34;
+}
+
+.low {
+    color: #dece12;
+}
+
+.medium {
+    color: #db6212;
+}
+
+.high {
+    color: #db1912;
+}
+
+/* Dark theme */
+
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.dark {
+    background-color: #090e22;
+
+}
+
+.interruptor {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bi {
+    cursor: pointer;
+}
+
+.bi-moon {
+    display: none;
+}
+
+
+
