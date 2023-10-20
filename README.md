@@ -8,4 +8,4 @@
 
 * Tema escuro
 
-* Visualize o projeto [clicando aqui](https://cleberramalho.github.io/calculadora_imc_app/)
+* Visualize o projeto [clicando aqui](https://cleber-ramalho.github.io/calculadora_imc_app/)
